@@ -6,6 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos</title>
     <link rel="stylesheet" href ="estilopb.css"/>
+    <style>
+        li.serie {
+            color: green;
+        }
+        
+        li.filme {
+            color: blue;
+        }
+
+        .jogo { 
+            color: orangered;
+        }
+
+        p > .jogo{
+            border-bottom: dashed;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -26,10 +43,11 @@
         
         <ol>
             
-            <li> CSGO</li> 
-            <li> R6</li>
-            <li> CS2</li>
+            <li class="jogo"> CSGO</li> 
+            <li class="jogo"> R6</li>
+            <li class="jogo"> CS2</li>
         </ol>
+        <p>E o <span class="jogo">CSGO</span> foi meu preferido</p>
 
     <P>Filmes e Séries que assisti:</P>
     <ul>
@@ -37,8 +55,8 @@
             <div>
                 <div>Filmes </div>
                 <ul>
-                    <li style="color: green;"> Interstellar</li>
-                    <li style="color: green;"> Hellboy</li>
+                    <li class="filme"> Interstellar</li>
+                    <li class="filme"> Hellboy</li>
                 </ul>
             </div>
         </li>
@@ -46,9 +64,9 @@
         <li>
             <div> 
                 <div>Séries</div>
-                <ul style="color: blue;"></ulstyle>
-                    <li> Carnival Row</li>
-                    <li>The Last of Us</li>
+                <ul>
+                    <li class="serie"> Carnival Row</li>
+                    <li class="serie">The Last of Us</li>
                 </ul>
             </div>
         </li>
